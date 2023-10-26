@@ -7,4 +7,17 @@ package homeowork_week_6;
  */
 public class Programme_12_PrintExpression {
 
+    public static void main(String[] args) {
+        //call method using object
+        Programme_12_PrintExpression t = new Programme_12_PrintExpression();
+        t.printExpressions();
+
+    }
+
+    //Print expression
+    public void printExpressions() {
+        double a = ((25.5 * 3.5 - 3.5 * 3.5) / (40.5 - 4.5));
+        System.out.println(a);
+
+}
 }
