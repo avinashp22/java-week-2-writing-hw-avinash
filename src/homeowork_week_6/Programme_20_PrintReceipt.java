@@ -1,4 +1,5 @@
 package homeowork_week_6;
+
 /* Write a Java Program to print as below.
 "+------------------------+"
 "| |"
@@ -20,9 +21,8 @@ public class Programme_20_PrintReceipt {
     }
 
 
-
     // method to print receipt
-    public static void printReceipt (){
+    public static void printReceipt() {
         System.out.println("\"+------------------------+\"");
         System.out.println("\"|                        |\"");
         System.out.println("\"|      CORNER  STORE     |\"");
@@ -35,11 +35,6 @@ public class Programme_20_PrintReceipt {
         System.out.println("\"| Fuel total:   $ 22.71  |\"");
         System.out.println("\"|                        |\"");
         System.out.println("\"+------------------------+\"");
-
-
-
-
-
 
 
     }

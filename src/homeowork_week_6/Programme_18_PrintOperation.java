@@ -1,4 +1,7 @@
 package homeowork_week_6;
+
+import java.util.Scanner;
+
 /**
  * Write a Java program to print the sum (addition), multiply, subtract, divide and remainder of two numbers.
  * Test Data:
@@ -12,4 +15,27 @@ package homeowork_week_6;
  * 125 mod 24 = 5
  */
 public class Programme_18_PrintOperation {
+
+
+    public static void main(String[] args) {
+        //Scanner declaration
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Please enter 1st number");
+        int firstNumber = scanner.nextInt();
+        System.out.println("Please enter 2nd number");
+        int secondNumber = scanner.nextInt();
+        Programme_18_PrintOperation printOperation = new Programme_18_PrintOperation();
+        printOperation.printTheOperation(firstNumber, secondNumber);
+        //Close the scanner object
+        scanner.close();
+    }
+
+    //Printing the all operations
+    public void printTheOperation(int a, int b) {
+        System.out.println("The sum of " + a + " and " + b + " is " + (a + b));
+        System.out.println("The difference of " + a + " and " + b + " is " + (a - b));
+        System.out.println("The product of " + a + " and " + b + " is " + (a * b));
+        System.out.println("The division of " + a + " and " + b + " is " + (a / b));
+        System.out.println("The remainder of " + a + " and " + b + " is " + (a % b));
+    }
 }
